@@ -30,6 +30,10 @@ p {
   text-align: center !important;
 }
 
+.card:hover {
+  box-shadow: 10px 10px 10px 10px yellow;
+}
+
 .content-text p {
   text-align: center;
 }
@@ -149,16 +153,13 @@ p {
 @media(min-width: 700px) {
   .grid {
     display: grid;
-    grid-template-columns: 1fr repeat(2, minmax(auto, 35em)) 1fr;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
   }
 
   #section-a .content-text {
-    columns: 2;
+    text-align: left;
+    columns: 1;
     column-gap: 0.5em;
-  }
-
-  #section-a .content-text p {
-    padding-top: 0;
   }
 
   .content-wrap, #section-b ul {
@@ -172,7 +173,7 @@ p {
   #section-b ul {
     display: grid;
     justify-content: space-around;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1.5fr 2fr;
   }
 
   ul#options {
