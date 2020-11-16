@@ -2,7 +2,7 @@
 body {
   margin: 0;
   background: #fcfcfc;
-  color: fcfcfc;
+  color: #748a9d;
   font-size: 1.1em;
   line-height: 1.5;
   text-align: center;
@@ -30,14 +30,30 @@ p {
   text-align: justify;
 }
 
+
 #kontakt {
   text-align: center !important;
 }
 
-.card:hover {
-  box-shadow: 10px 10px 10px yellow;
+#bilde{
+  background-color: #fcfcfc;
+}
+#text {
+  background-color: #f0f4f8;
 }
 
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+  border-radius: 10px;
+}
+.card#bilde {
+  box-shadow: 0 0 0 0;
+}
+.card-content#text {
+  border-radius: 10px;
+}
 .content-text p {
   text-align: center;
 }
@@ -115,8 +131,9 @@ p {
 
 #section-b li {
   margin-bottom: 1em;
-  background: #ffffff;
   color: #333;
+  background-color: #fcfcfc;
+
 }
 
 .card-content {
@@ -157,7 +174,7 @@ p {
 @media(min-width: 700px) {
   .grid {
     display: grid;
-    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 1fr;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 2fr;
   }
 
   #section-a .content-text {
@@ -167,7 +184,7 @@ p {
   }
 
   .content-wrap, #section-b ul {
-    grid-column: 2/4;
+    grid-column: 2/5;
   }
 
   .box, #main-footer div {
@@ -177,7 +194,9 @@ p {
   #section-b ul {
     display: grid;
     justify-content: space-around;
-    grid-template-columns: 1.5fr 2fr;
+    grid-template-columns: 1.7fr 1fr;
+    grid-column-gap: 4em;
+
   }
 
   ul#options {
