@@ -177,6 +177,10 @@ p {
     grid-template-columns: 1fr repeat(2, minmax(auto, 25em)) 2fr;
   }
 
+  .mobilepicture {
+    display: none;
+  }
+
   #section-a .content-text {
     text-align: left;
     columns: 1;
@@ -196,7 +200,10 @@ p {
     justify-content: space-around;
     grid-template-columns: 1.7fr 1fr;
     grid-column-gap: 4em;
+  }
 
+  .left {
+  grid-template-columns: 1fr 1.7fr !important;
   }
 
   ul#options {
@@ -214,4 +221,10 @@ p {
   #section-d .box:last-child p {
     text-align: justify;
   }
+}
+
+@media(max-width: 700px) {
+  .card#bilde {
+  display: none;
+}
 }
