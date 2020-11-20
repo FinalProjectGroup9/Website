@@ -42,6 +42,10 @@ p {
   background-color: #f0f4f8;
 }
 
+.nav-grid {
+  list-style: none;
+
+}
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -61,18 +65,19 @@ p {
 .btn {
   display: inline-block;
   margin-right: 15px;
-  background: #333;
-  color: #fff;
+  background: #269D7D;
+  color: white;
   text-decoration: none;
   padding: 1em 2em;
   border: 1px solid #666;
+  border-radius: 10em;
   width: 15%;
   margin-bottom: 10px;
 }
 
 .btn:hover {
-  background: #eaeaea;
-  color: #333;
+  background: yellow;
+  color: black;
 }
 
 /* Header */
@@ -167,7 +172,7 @@ p {
 }
 
 #main-footer a {
-  color: #88a2e3;
+  /*color: #88a2e3;*/
   text-decoration: none;
 }
 
@@ -179,7 +184,16 @@ p {
 
   .grid {
     display: grid;
-     grid-template-columns: 1fr repeat(2, minmax(auto, 35em)) 1fr;
+    grid-template-columns: 1fr repeat(2, minmax(auto, 35em)) 1fr;
+
+  }
+
+  .nav-grid {
+    display: grid;
+    justify-content: space-around;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-column-gap: 4em;
+    list-style: none;
 
   }
 
