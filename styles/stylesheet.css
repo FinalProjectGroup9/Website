@@ -91,7 +91,7 @@ p {
   padding: 1em 2em;
   border: 1px solid #666;
   border-radius: 10em;
-  width: 15%;
+  width: 25%;
   margin-bottom: 10px;
 }
 
@@ -166,7 +166,7 @@ p {
 
 /* Section C */
 #section-c {
-  background: #ffffff;
+  background: #fcfcfc;
   color: #333;
   padding: 2em;
 }
