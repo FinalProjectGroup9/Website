@@ -195,7 +195,7 @@ p {
   text-decoration: none;
 }
 
-@media(min-width: 765px) {
+@media(min-width: 791px) {
   #mobile-a {
     display: none;
   }
@@ -277,7 +277,7 @@ text-align: center;
   }
 }
 
-@media(max-width: 764px) {
+@media(max-width: 790px) {
   .bilde {
     display: none;
   }
