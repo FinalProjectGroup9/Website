@@ -1,7 +1,7 @@
 /* Base */
 body {
   margin: 0;
-  background: #fcfcfc;
+  background: #efefef;
   color: #748a9d;
   font-size: 1.1em;
   line-height: 1.5;
@@ -46,7 +46,6 @@ p {
 }
 
 .bilde {
-  background-color: #fcfcfc;
   box-shadow: 0 0 0 0 !important;
 }
 
@@ -148,14 +147,15 @@ p {
 
 /* Section A */
 #section-a {
-  background: #ededed;
-  color: #333;
+  background: #1f0035;
+  color: #FFF;
   padding-bottom: 2em;
 }
 
 /* Section B */
 #section-b {
   padding: 2em 1em 1em;
+    background-color: #f7f7f7;
 }
 
 #section-b ul {
@@ -167,7 +167,7 @@ p {
 #section-b li {
   margin-bottom: 1em;
   color: #333;
-  background-color: #fcfcfc;
+
 }
 
 .card-content {
@@ -176,7 +176,7 @@ p {
 
 /* Section C */
 #section-c {
-  background: #fcfcfc;
+  background: #fff;
   color: #333;
   padding: 2em;
 }
@@ -245,9 +245,6 @@ p {
     grid-column: span 2;
   }
 
-  #section-c {
-    background-color: #efefef;
-  }
 
   #section-c img {
     margin-left: 10%;
