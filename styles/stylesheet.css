@@ -150,6 +150,7 @@ p {
   background: #1f0035;
   color: #FFF;
   padding-bottom: 2em;
+  padding-top: 0.001em;
 }
 
 /* Section B */
@@ -307,7 +308,7 @@ text-align: center;
 
   #section-a {
     text-align: center;
-    font-size: 17px;
+    font-size: 16px;
   }
 
   h3 {
