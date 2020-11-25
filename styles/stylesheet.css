@@ -21,7 +21,7 @@ img:hover {
 
 h1, h2, h3 {
   font-family: 'Montserrat', sans-serif;
-  font-weight: 300;
+  font-weight: 700;
   text-transform: uppercase;
   margin: 0;
   padding: 1em 0;
@@ -311,5 +311,9 @@ text-align: center;
   #section-a {
     text-align: center;
     font-size: 17px;
+  }
+
+  h3 {
+    text-decoration: underline;
   }
 }
