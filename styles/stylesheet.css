@@ -40,6 +40,10 @@ p {
   text-align: justify;
   font-size: 20px;
 }
+.bottom {
+  text-align: center;
+
+}
 
 #kontakt {
   text-align: center !important;
@@ -95,16 +99,16 @@ p {
   background: #269D7D;
   color: white;
   text-decoration: none;
-  padding: 1em 2em;
+  padding: 0.5em 2.3em;
   border: 1px solid #666;
   border-radius: 10em;
-  width: 25%;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
+
 }
 
 .btn:hover {
-  background: yellow;
-  color: black;
+  transform: scale(1.1);
+  transition: transform 1s;
 }
 
 /* Header */
