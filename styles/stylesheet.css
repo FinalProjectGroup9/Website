@@ -207,9 +207,6 @@ p {
 
 /* Shows only on desktop browser (more then 791px) */
 @media(min-width: 791px) {
-  #mobile-a {
-    display: none;
-  }
 
   #devices-mobile {
     display: none;
@@ -285,7 +282,7 @@ text-align: center;
   }
 }
 
-/* MOBILE - VIEW - ONLY */ 
+/* MOBILE - VIEW - ONLY */
 @media(max-width: 790px) {
   .bilde {
     display: none;
