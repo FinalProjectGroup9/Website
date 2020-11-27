@@ -284,6 +284,10 @@ p {
 /* Shows only on desktop browser (more then 791px) */
 @media(min-width: 791px) {
 
+  .logo-m {
+    display: none;
+  }
+
   #mobile-only-nav {
     display: none !important;
   }
@@ -365,6 +369,10 @@ text-align: center;
 
 /* MOBILE - VIEW - ONLY */
 @media(max-width: 790px) {
+
+  .logo {
+    display: none;
+  }
 
 #all {
   display: none !important;
