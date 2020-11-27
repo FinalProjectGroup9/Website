@@ -1,83 +1,54 @@
-/*Header-navbar*/
-header {
+/* NAV */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+navbar {
   display: flex;
-  justify-content:space-between;
-  align-items: center;
-  padding: 7px 10% 0px 0px;
   background-color: #1f0035;
-  overflow: hidden;
-}
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
 
 }
-.nav__links a{
-  font-family: 'Kanit', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  color: #e6e6e6;
+
+.navbaren a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #efefef;
   text-decoration: none;
 }
 
-.nav__links li {
-  list-style: none;
-  display: inline;
-  position: relative;
-  padding: 10% 30px;
-  height: 100%;
-  transition: color 0.3s ease 0s;
+.active {
+  border-bottom: 4px solid #FFF;
+  padding-bottom: 2px;
 }
 
-.nav__links li a:hover {
+.active:hover {
+  border-bottom: 3px solid #269D7D;
+}
+
+.navbaren {
+  list-style: none;
+  display: flex;
+}
+
+.navbaren li {
+  padding: 0px 20px;
+}
+
+.navbaren li a {
+  transition: color 0.2s ease 0s;
+}
+
+.navbaren li a:hover {
   color: #269D7D;
 }
 
-.nav__links-m a{
-  font-family: 'Kanit', sans-serif;
-  font-weight: 400;
-  font-size: 20px;
-  color: #e6e6e6;
-  text-decoration: none;
-}
-
-
-/*.nav__links-m li {
-  list-style: none;
-  display: inline-table;
-  position: relative;
-  padding: 10px 20px;
-  height: 100%;*/
-  /*transition: color 0.3s ease 0s;*/
-
-.nav__links-m li {
-  list-style: none;
-  display: inline-grid;
-
-  grid-template-columns: 1fr repeat(2 fit-content(30px));
-
-}
-
-
-.nav__links-m li:first-child {
-  background-color: yellow;
-  position: relative;
-
-
-}
-
-.nav__links-m li a:hover {
-  color: #269D7D;
-}
-
-.btn-nav {
-  /*display: inline-block;*/
-  /*margin-right: 3%;*/
-  background: #269D7D;
-  color: white;
-  text-decoration: none;
-  padding: 0.5em 2.3em;
-  border: 1px solid #666;
-  margin-bottom: 0px;
-}
-
+/* NAV */
 
 /* Base */
 body {
@@ -293,6 +264,14 @@ p {
 /* Shows only on desktop browser (more then 791px) */
 @media(min-width: 791px) {
 
+  /* NAV */
+
+  #logo-m {
+  display: none;
+  }
+
+  /* NAV */
+
   .logo-m {
     display: none;
   }
@@ -379,10 +358,15 @@ text-align: center;
 
 /* MOBILE - VIEW - ONLY */
 @media(max-width: 790px) {
+ /* NAVBAR */
+   .navbaren a {
+     text-transform: uppercase;
+   }
 
-  .logo {
-    display: none;
-  }
+ #logo {
+   display: none;
+ }
+ /* NAVBAR */
 
 #all {
   display: none !important;
