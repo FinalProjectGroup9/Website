@@ -232,6 +232,9 @@ p {
   padding-bottom: 2em;
   padding-top: 0.001em;
 }
+.nav-grid li {
+  list-style: none;
+}
 
 /* Del - B */
 #section-b {
