@@ -8,6 +8,7 @@ header {
   overflow: hidden;
 }
 
+}
 .nav__links a{
   font-family: 'Kanit', sans-serif;
   font-weight: 400;
@@ -144,9 +145,6 @@ p {
   background-color: #f0f4f8;
 }
 
-.nav-grid {
-  list-style: none;
-}
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -313,7 +311,7 @@ p {
     display: grid;
     grid-template-columns: 1fr repeat(2, minmax(auto, 35em)) 1fr;
   }
-
+/*Indexpage styling-start*/
   .nav-grid {
     display: grid;
   /*  justify-content: space-around; */
@@ -321,6 +319,7 @@ p {
     grid-column-gap: 4.5em;
     list-style: none;
   }
+/*Indexpage styling-end*/
 
   #section-a .content-text {
     text-align: left;
