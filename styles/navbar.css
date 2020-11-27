@@ -1,0 +1,66 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+navbar {
+  display: flex;
+  background-color: #1f0035;
+  justify-content: space-between;
+  align-items: center;
+  padding: 30px 10%;
+}
+
+
+.navbaren a {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #efefef;
+  text-decoration: none;
+}
+
+
+.active {
+  border-bottom: 4px solid #FFF;
+  padding-bottom: 2px;
+}
+
+.active:hover {
+  border-bottom: 3px solid #269D7D;
+}
+
+.navbaren {
+  list-style: none;
+  display: flex;
+}
+
+.navbaren li {
+  padding: 0px 20px;
+}
+
+.navbaren li a {
+  transition: color 0.2s ease 0s;
+}
+
+.navbaren li a:hover {
+  color: #269D7D;
+}
+
+/* Shows only on desktop browser (more then 791px) */
+@media(min-width: 791px) {
+  #logo-m {
+    display: none;
+  }
+}
+
+/* Show only on mobile devices and screens lower then 790px */
+@media(max-width: 790px) {
+  .navbaren a {
+    text-transform: uppercase;
+  }
+
+  #logo {
+    display: none;
+  }
+}
