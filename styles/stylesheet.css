@@ -293,15 +293,15 @@ p {
     display: grid;
     grid-template-columns: 1fr repeat(2, minmax(auto, 35em)) 1fr;
   }
-/*Indexpage styling-start*/
+/*Indexpage styling-start
   .nav-grid {
     display: grid;
-  /*  justify-content: space-around; */
+ justify-content: space-around; 
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-column-gap: 4.5em;
     list-style: none;
   }
-/*Indexpage styling-end*/
+Indexpage styling-end */
 
   #section-a .content-text {
     text-align: left;
