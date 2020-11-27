@@ -38,21 +38,29 @@ header {
 }
 
 
-.nav__links-m li {
+/*.nav__links-m li {
   list-style: none;
-display: inline-block;
+  display: inline-table;
   position: relative;
   padding: 10px 20px;
-  height: 100%;
-  transition: color 0.3s ease 0s;
+  height: 100%;*/
+  /*transition: color 0.3s ease 0s;*/
+
+.nav__links-m li {
+  list-style: none;
+  display: inline-grid;
+
+  grid-template-columns: 1fr repeat(2 fit-content(30px));
+
 }
 
-/*.nav__links-m ul{
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-column: 1/3;
-  justify-content: center;
-}*/
+
+.nav__links-m li:first-child {
+  background-color: yellow;
+  position: relative;
+
+
+}
 
 .nav__links-m li a:hover {
   color: #269D7D;
