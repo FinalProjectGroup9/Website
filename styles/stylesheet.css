@@ -1,3 +1,70 @@
+/*Header-navbar*/
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 7px 10% 0px 0px;
+  background-color: #1f0035;
+  overflow: hidden;
+}
+
+.nav__links a{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
+.nav__links li {
+  list-style: none;
+  display: inline;
+  position: relative;
+  padding: 10% 30px;
+  height: 100%;
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links li a:hover {
+  color: #269D7D;
+}
+
+.nav__links-m a{
+  font-family: 'Kanit', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: #e6e6e6;
+  text-decoration: none;
+}
+
+.nav__links-m li {
+  list-style: none;
+  display: block;
+  position: relative;
+  padding: 10% 30px;
+  height: 100%;
+  transition: color 0.3s ease 0s;
+}
+
+.nav__links-m li a:hover {
+  color: #269D7D;
+}
+
+.btn-nav {
+  display: inline-block;
+   margin-right: 10%;
+  background: #269D7D;
+  color: white;
+  text-decoration: none;
+  padding: 0.5em 2.3em;
+  border: 1px solid #666;
+  margin-bottom: 0px;
+}
+
+.btn-hav:hover {
+
+}
+
 /* Base */
 body {
   margin: 0;
@@ -212,6 +279,11 @@ p {
 /* Shows only on desktop browser (more then 791px) */
 @media(min-width: 791px) {
 
+  #mobile-only-nav {
+    display: none !important;
+  }
+
+
   #devices-mobile {
     display: none;
   }
@@ -288,6 +360,11 @@ text-align: center;
 
 /* MOBILE - VIEW - ONLY */
 @media(max-width: 790px) {
+
+#all {
+  display: none !important;
+}
+
   .bilde {
     display: none;
   }
@@ -312,7 +389,9 @@ text-align: center;
     text-align: center;
     font-size: 16px;
   }
-
+header{
+    justify-content: center !important;
+}
   h3 {
     text-decoration: underline;
   }
