@@ -19,7 +19,7 @@ img {
   height: auto;
 }
 
-h1, h2, h3 {
+h1, h2, h3,h4 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   text-transform: uppercase;
@@ -45,4 +45,12 @@ a {
   background-color: #f0f4f8;
   padding: 1em;
   margin: 1%;
+}
+
+ul.first_line {
+  padding-left: 3em;
+}
+
+ul.second_line {
+  padding-left: 1em;
 }
