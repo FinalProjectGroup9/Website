@@ -1,17 +1,17 @@
 body {
   text-align: center;
-  background: #1f0035;
+  background: #fffacd;
   color: #748a9d;
 }
 
 /* NAV-BAR APP.HTML*/
 
 navbar {
-  background-color: #1f0035;
+  background-color: #fffacd;
 }
 
 .navbaren a {
-  color: #ffffff;
+  color: #000000;
 }
 
 /* Elementer */
@@ -28,9 +28,7 @@ navbar {
   text-align: center !important;
 }
 
-.bilde {
-  box-shadow: 0 0 0 0 !important;
-}
+
 
 .icons {
   width: 128px;
@@ -39,13 +37,19 @@ navbar {
   margin-right: auto;
 }
 
-.tekst {
-  background-color: #f0f4f8;
-}
+
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 10px;
+}
+
+.bilde {
+  box-shadow: 0 0 0 0;
+}
+
+.tekst {
+  background-color: #f0f4f8;
 }
 
 .icon-mobile img {
@@ -61,8 +65,8 @@ navbar {
 
 /* Del - A */
 #section-a {
-  background: #1f0035;
-  color: #FFF;
+  background: #fffacd;
+  color: #000;
   padding-bottom: 2em;
   padding-top: 0.001em;
   margin-left: 3%;
