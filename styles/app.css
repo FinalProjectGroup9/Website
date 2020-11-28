@@ -1,46 +1,23 @@
-/* Base */
 body {
-  margin: 0;
-  background: #efefef;
-  color: #748a9d;
-  font-size: 1.1em;
-  line-height: 1.5;
   text-align: center;
-  font-family: 'Lora', serif;
+  background: #1f0035;
+  color: #748a9d;
 }
 
-img {
-  display: block;
-  width: 100%;
-  height: auto;
+/* NAV-BAR APP.HTML*/
+
+navbar {
+  background-color: #1f0035;
 }
 
+.navbaren a {
+  color: #ffffff;
+}
+
+/* Elementer */
 .bilde img:hover {
   transform: scale(1.1);
   transition: transform 1s;
-}
-
-h1, h2, h3 {
-  font-family: 'Montserrat', sans-serif;
-  font-weight: 700;
-  text-transform: uppercase;
-  margin: 0;
-  padding: 1em 0;
-}
-
-h2 {
-  font-size: 28px;
-}
-
-h3 {
-  font-size: 24px;
-}
-
-p {
-  margin: 0;
-  padding: 1em 0;
-  text-align: justify;
-  font-size: 20px;
 }
 
 .bottom {
@@ -82,74 +59,14 @@ p {
   height: 80%;
 }
 
-.card-content,
-.tekst {
-  border-radius: 10px;
-}
-
-.content-text p {
-  text-align: center;
-}
-
-.btn {
-  display: inline-block;
-  margin-right: 15px;
-  background: #269D7D;
-  color: white;
-  text-decoration: none;
-  padding: 0.5em 2.3em;
-  border: 1px solid #666;
-  border-radius: 10em;
-  margin-bottom: 5px;
-}
-
-.btn:hover {
-  transform: scale(1.1);
-  transition: transform 1s;
-}
-
-/* Header */
-#showcase {
-  min-height: 450px;
-  color: #fff;
-}
-
-#showcase .bg_image {
-  position: absolute;
-  background: #333 url("../img/univer.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  width: 100%;
-  height: 600px;
-  z-index: -1;
-  opacity: 0.4;
-}
-
-#showcase h1 {
-  padding-top: 100px;
-  padding-bottom: 0;
-  text-align: center;
-}
-
-#showcase p {
-  width: 80%;
-  text-align: cen;
-  margin-left: auto;
-  margin-right: auto;
-}
-
-#showcase .content-wrap,
-#section-a .content-wrap {
-  padding: 0;
-}
-
 /* Del - A */
 #section-a {
   background: #1f0035;
   color: #FFF;
   padding-bottom: 2em;
   padding-top: 0.001em;
+  margin-left: 3%;
+  margin-right: 3%;
 }
 
 .nav-grid li {
@@ -195,20 +112,6 @@ p {
   background: #36005d;
 }
 
-/* Footer */
-#main-footer {
-  padding: 2em;
-  background: #1f2833;
-  color: #fff;
-  text-align: center;
-}
-
-#main-footer a {
-  /*color: #88a2e3;*/
-  text-decoration: none;
-}
-
-/* Shows only on desktop browser (more then 791px) */
 @media(min-width: 791px) {
   #devices-mobile {
     display: none;
@@ -258,7 +161,6 @@ p {
     display: grid;
     justify-content: space-around;
     grid-template-columns: 1.7fr 1fr;
-    /* grid-column-gap: 1em; */
   }
 
   .left {
@@ -303,10 +205,6 @@ p {
   #section-a {
     text-align: center;
     font-size: 16px;
-  }
-
-  header {
-    justify-content: center !important;
   }
 
   h3 {

@@ -6,7 +6,6 @@
 
 navbar {
   display: flex;
-  background-color: #1f0035;
   justify-content: space-between;
   align-items: center;
   padding: 30px 10%;
@@ -16,7 +15,6 @@ navbar {
 .navbaren a {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
-  color: #efefef;
   text-decoration: none;
 }
 
