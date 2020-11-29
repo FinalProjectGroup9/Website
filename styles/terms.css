@@ -1,11 +1,8 @@
 /* Base */
 body {
+  background-color: #f7f7f7;
   color: #748a9d;
   text-align: left;
-}
-
-.navbaren a {
-  color: #ffffff;
 }
 
 img {
