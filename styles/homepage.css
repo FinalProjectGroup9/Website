@@ -6,7 +6,7 @@ body {
 /* NAV-BAR APP.HTML*/
 
 navbar {
-  background-color: #1f0035;
+  background-color: #008364;
 }
 
 .navbaren a {
@@ -97,7 +97,7 @@ navbar {
 
 /* Del - A */
 #section-a {
-  background: #1f0035;
+  background: #008364;
   color: #FFF;
   padding-bottom: 2em;
   padding-top: 0.001em;
@@ -139,11 +139,11 @@ navbar {
 #section-d .box {
   padding: 2em;
   color: #ffffff;
-  background: #310057;
+  background: #008364;
 }
 
 #section-d .box:first-child {
-  background: #36005d;
+  background: #008364;
 }
 
 @media(min-width: 791px) {
