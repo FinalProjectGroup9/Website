@@ -50,10 +50,5 @@ ul.first_line {
 
 ul.second_line {
   padding-left: 1em;
-}
-li.articles {
-  padding-bottom: 1em;
-}
-li.group {
-  padding-bottom: 1em;
+  list-style: none;
 }
