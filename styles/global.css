@@ -51,10 +51,11 @@ p {
   background: #008364;
   color: #ffffff;
   text-decoration: none;
-  padding: 0.5em 2.3em;
+  padding: 0.5em 2em;
   border: 1px solid #666;
   border-radius: 10em;
   margin-bottom: 5px;
+  width: 130px;
 }
 
 .btn:hover {
