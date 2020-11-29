@@ -5,6 +5,7 @@
 }
 
 navbar {
+  background-color: #008364;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,7 +17,8 @@ navbar {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-decoration: none;
-}
+  color: #fff;
+  }
 
 
 .active {
