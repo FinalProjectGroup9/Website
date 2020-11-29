@@ -44,6 +44,11 @@ navbar {
   border-radius: 10px;
 }
 
+#card6 {
+  box-shadow: 4px 4px 4px 4px rgba(38, 157, 125, 0.7);
+  border-radius: 10px;
+}
+
 .bilde {
   box-shadow: 0 0 0 0;
 }
@@ -165,6 +170,7 @@ navbar {
     display: grid;
     justify-content: space-around;
     grid-template-columns: 1.7fr 1fr;
+    padding-bottom: 5%;
   }
 
   .left {
