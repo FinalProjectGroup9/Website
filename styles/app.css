@@ -1,17 +1,17 @@
 body {
   text-align: center;
-  background: #fffacd;
+  background: #008364;
   color: #748a9d;
 }
 
 /* NAV-BAR APP.HTML*/
 
 navbar {
-  background-color: #fffacd;
+  background-color: #008364;
 }
 
 .navbaren a {
-  color: #000000;
+  color: #fff;
 }
 
 /* Elementer */
@@ -70,8 +70,8 @@ navbar {
 
 /* Del - A */
 #section-a {
-  background: #fffacd;
-  color: #000;
+  background: #008364;
+  color: #fff;
   padding-bottom: 2em;
   padding-top: 0.001em;
   margin-left: 3%;

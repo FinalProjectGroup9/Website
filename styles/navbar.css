@@ -5,6 +5,7 @@
 }
 
 navbar {
+  background-color: #008364;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -16,16 +17,17 @@ navbar {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-decoration: none;
-}
+  color: #fff;
+  }
 
 
 .active {
-  border-bottom: 4px solid #000;
+  border-bottom: 4px solid #ffffff;
   padding-bottom: 2px;
 }
 
 .active:hover {
-  border-bottom: 3px solid #269D7D;
+  border-bottom: 4px solid #FCFDD3;
 }
 
 .navbaren {
@@ -42,7 +44,7 @@ navbar {
 }
 
 .navbaren li a:hover {
-  color: #269D7D;
+  color: #FCFDD3;
 }
 
 /* Shows only on desktop browser (more then 791px) */

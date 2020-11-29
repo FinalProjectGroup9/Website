@@ -1,6 +1,5 @@
 /* Base */
 body {
-  
   color: #748a9d;
   text-align: left;
 }
@@ -31,6 +30,11 @@ p {
   text-align: left;
 }
 
+p.subtitle {
+  padding-left: 2em;
+  text-align: center;
+}
+
 a {
   word-wrap: break-word;
 }
@@ -50,10 +54,6 @@ ul.first_line {
 
 ul.second_line {
   padding-left: 1em;
-}
-li.articles {
-  padding-bottom: 1em;
-}
-li.group {
-  padding-bottom: 1em;
+  padding-bottom: 2em;
+  list-style: none;
 }

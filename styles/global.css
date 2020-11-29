@@ -48,13 +48,14 @@ p {
 .btn {
   display: inline-block;
   margin-right: 15px;
-  background: #269D7D;
-  color: white;
+  background: #008364;
+  color: #ffffff;
   text-decoration: none;
-  padding: 0.5em 2.3em;
+  padding: 0.5em 2em;
   border: 1px solid #666;
   border-radius: 10em;
   margin-bottom: 5px;
+  width: 140px;
 }
 
 .btn:hover {
@@ -65,7 +66,8 @@ p {
 /* Footer */
 #main-footer {
   padding: 2em;
-  background: #1f2833;
+/*  background: #1f2833; */
+  background-color: #000000;
   color: #fff;
   text-align: center;
 }
