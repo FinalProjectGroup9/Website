@@ -48,8 +48,8 @@ p {
 .btn {
   display: inline-block;
   margin-right: 15px;
-  background: #269D7D;
-  color: white;
+  background: #008364;
+  color: #ffffff;
   text-decoration: none;
   padding: 0.5em 2.3em;
   border: 1px solid #666;
@@ -65,7 +65,8 @@ p {
 /* Footer */
 #main-footer {
   padding: 2em;
-  background: #1f2833;
+/*  background: #1f2833; */
+  background-color: #000000;
   color: #fff;
   text-align: center;
 }
