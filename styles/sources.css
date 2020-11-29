@@ -49,8 +49,15 @@ a {
 
 ul.first_line {
   padding-left: 3em;
+  padding-bottom: 1em;
 }
 
 ul.second_line {
   padding-left: 1em;
+}
+li.articles {
+  padding-bottom: 1em;
+}
+li.group {
+  padding-bottom: 1em;
 }
