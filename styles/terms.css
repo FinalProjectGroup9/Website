@@ -5,6 +5,18 @@ body {
   text-align: left;
 }
 
+navbar {
+  background-color: #f7f7f7;
+}
+
+.navbaren a {
+  color: #008364;
+}
+
+.navbaren li a:hover {
+  color: #000;
+}
+
 img {
   display: block;
   width: 100%;

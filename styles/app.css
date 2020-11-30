@@ -14,9 +14,16 @@ navbar {
   color: #fff;
 }
 
+.navbaren li a:hover {
+  color: #002a00;
+}
+
 .active {
   border-bottom: 4px solid #ffffff;
   padding-bottom: 2px;
+}
+.active:hover {
+  border-bottom: 4px solid #002a00;
 }
 
 /* Elementer */

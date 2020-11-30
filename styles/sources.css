@@ -1,12 +1,20 @@
 /* Base */
 body {
-  
-  color: #748a9d;
+  background-color: #f7f7f7;
+  color: #5c7285;
   text-align: left;
 }
 
+navbar {
+  background-color: #f7f7f7;
+}
+
 .navbaren a {
-  color: #ffffff;
+  color: #008364;
+}
+
+.navbaren li a:hover {
+  color: #000;
 }
 
 img {

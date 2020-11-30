@@ -19,9 +19,7 @@ navbar {
   }
 
 
-.active:hover {
-  border-bottom: 4px solid #FCFDD3;
-}
+
 
 .navbaren {
   list-style: none;
@@ -34,10 +32,6 @@ navbar {
 
 .navbaren li a {
   transition: color 0.2s ease 0s;
-}
-
-.navbaren li a:hover {
-  color: #FCFDD3;
 }
 
 /* Shows only on desktop browser (more then 791px) */
