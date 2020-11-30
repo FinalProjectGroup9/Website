@@ -1,17 +1,22 @@
 body {
   text-align: center;
   background: #008364;
-  color: #748a9d;
+  /* color: #748a9d; */
+  color: #5c7285;
 }
 
 /* NAV-BAR APP.HTML*/
-
 navbar {
   background-color: #008364;
 }
 
 .navbaren a {
   color: #fff;
+}
+
+.active {
+  border-bottom: 4px solid #ffffff;
+  padding-bottom: 2px;
 }
 
 /* Elementer */
@@ -28,16 +33,12 @@ navbar {
   text-align: center !important;
 }
 
-
-
 .icons {
   width: 128px;
   height: 128px;
   margin-left: auto;
   margin-right: auto;
 }
-
-
 
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -105,20 +106,9 @@ navbar {
 
 /* Del - C */
 #section-c {
-  background: #fff;
+  background: #ffffff;
   color: #333;
   padding: 2em;
-}
-
-/* Del - D */
-#section-d .box {
-  padding: 2em;
-  color: #ffffff;
-  background: #310057;
-}
-
-#section-d .box:first-child {
-  background: #36005d;
 }
 
 @media(min-width: 791px) {
