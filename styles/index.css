@@ -112,7 +112,7 @@ navbar {
   font-weight: bold;
 }
 
-#title {
+.title {
   font-size: 40px;
 }
 
@@ -153,7 +153,26 @@ navbar {
   padding: 0;
 }
 
+/* Del - E */
+#section-e {
+  padding: 1em 1em 1em;
+  background-color: #f7f7f7;
+}
+
+#section-e ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  grid-column: 2/4;
+}
+
+#section-e li {
+  margin-bottom: 5%;
+  color: #333;
+}
+
 @media(min-width: 791px) {
+
   #devices-mobile {
     display: none;
   }
@@ -212,6 +231,22 @@ navbar {
   #section-d .box:last-child p {
     text-align: justify;
   }
+
+  #section-e {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
+
+    #section-e ul {
+      display: grid;
+      justify-content: space-around;
+      grid-template-columns: 1fr 1fr;
+    }
+
+    #section-e li {
+      width: 95%;
+    }
+
 }
 
 /* MOBILE - VIEW - ONLY */
