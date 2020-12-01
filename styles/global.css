@@ -1,7 +1,6 @@
 /* Base */
 body {
   margin: 0;
-  font-size: 1.1em;
   line-height: 1.5;
   font-family: 'Lora', serif;
 }
@@ -66,8 +65,7 @@ p {
 /* Footer */
 #main-footer {
   padding: 2em;
-/*  background: #1f2833; */
-  background-color: #000000;
+  background-color: #585959;
   color: #fff;
   text-align: center;
 }

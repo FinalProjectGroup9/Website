@@ -1,3 +1,4 @@
+/* NAVIGATION BAR STYLING */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -11,15 +12,11 @@ navbar {
   padding: 30px 10%;
 }
 
-
 .navbaren a {
   font-family: 'Montserrat', sans-serif;
   font-weight: bold;
   text-decoration: none;
-  }
-
-
-
+}
 
 .navbaren {
   list-style: none;
@@ -34,14 +31,14 @@ navbar {
   transition: color 0.2s ease 0s;
 }
 
-/* Shows only on desktop browser (more then 791px) */
+/* DESKTOP DEVICE ONLY (OVER 791px) */
 @media(min-width: 791px) {
   #logo-m {
     display: none;
   }
 }
 
-/* Show only on mobile devices and screens lower then 790px */
+/* MOBILE DEVICES ONLY (UNDER 790px) */
 @media(max-width: 790px) {
   .navbaren a {
     text-transform: uppercase;
