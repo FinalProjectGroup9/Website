@@ -1,7 +1,7 @@
+/* BODY STYLING */
 body {
   text-align: center;
   background: #008364;
-  /* color: #748a9d; */
   color: #5c7285;
 }
 
@@ -22,22 +22,15 @@ navbar {
   border-bottom: 4px solid #ffffff;
   padding-bottom: 2px;
 }
+
 .active:hover {
   border-bottom: 4px solid #002a00;
 }
 
-/* Elementer */
+/* ELEMENTS */
 .bilde img:hover {
   transform: scale(1.1);
   transition: transform 1s;
-}
-
-.bottom {
-  text-align: center;
-}
-
-#kontakt {
-  text-align: center !important;
 }
 
 .icons {
@@ -65,18 +58,12 @@ navbar {
   background-color: #f0f4f8;
 }
 
-.icon-mobile img {
-  width: 64px;
-  height: 64px;
-  float: left !important;
-}
-
 #devices {
   width: 80%;
   height: 80%;
 }
 
-/* Del - A */
+/* SECTION ONE */
 #section-a {
   background: #008364;
   color: #fff;
@@ -90,7 +77,7 @@ navbar {
   list-style: none;
 }
 
-/* Del - B */
+/* SECTION TWO */
 #section-b {
   padding: 2em 1em 1em;
   background-color: #f7f7f7;
@@ -111,13 +98,14 @@ navbar {
   padding: 1.5em;
 }
 
-/* Del - C */
+/* SECTION THREE */
 #section-c {
   background: #ffffff;
   color: #333;
   padding: 2em;
 }
 
+/* DESKTOP DEVICE ONLY (OVER 791px) */
 @media(min-width: 791px) {
   #devices-mobile {
     display: none;
@@ -177,18 +165,10 @@ navbar {
   #section-b li {
     width: 90%;
   }
-
-  #section-d .box:last-child p {
-    text-align: justify;
-  }
 }
 
-/* MOBILE - VIEW - ONLY */
+/* MOBILE DEVICES ONLY (UNDER 790px) */
 @media(max-width: 790px) {
-  #all {
-    display: none !important;
-  }
-
   .bilde {
     display: none;
   }

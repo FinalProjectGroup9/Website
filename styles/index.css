@@ -28,7 +28,6 @@ navbar {
 }
 
 /* ELEMENTS */
-
 .icons {
   width: 128px;
   height: 128px;
@@ -84,7 +83,6 @@ navbar {
   color: #000;
 }
 
-
 #section-d .box:last-child {
   padding: 0em;
 }
@@ -119,6 +117,27 @@ navbar {
 #section-e li {
   margin-bottom: 5%;
   color: #333;
+}
+
+#arrow {
+  background: url(../img/Icons/arrow.png) no-repeat right;
+  padding-right: 40px;
+  text-align: right;
+  font-size: 24px;
+  font-weight: 700;
+  display: inline-block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  text-decoration: none;
+}
+
+#arrow a:link, #arrow a:visited{
+  text-decoration: none;
+  color: #008364;
+}
+
+#arrow::before {
+  display: inline-block;
 }
 
 /* DESKTOP DEVICE (OVER 791px) */
@@ -191,7 +210,6 @@ navbar {
 
 /* MOBILE - VIEW - ONLY */
 @media(max-width: 790px) {
-
   .picture-noshow {
     display: none;
   }
@@ -206,4 +224,11 @@ navbar {
     font-size: 16px;
     margin-left: 10px;
   }
+
+  #arrow {
+    font-size: 16px;
+    background: url(../img/Icons/arrow.png) no-repeat right;
+    background-size: 16px;
+  }
+
 }
