@@ -136,6 +136,10 @@ navbar {
   color: #008364;
 }
 
+.arrow a:hover {
+  color: #000;
+}
+
 /* DESKTOP DEVICE (OVER 791px) */
 @media(min-width: 791px) {
   #devices-mobile {
