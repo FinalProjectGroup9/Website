@@ -41,6 +41,7 @@ p {
 
 p.subtitle {
   padding-left: 2em;
+  padding-right: 2em;
   text-align: center;
 }
 
@@ -59,6 +60,7 @@ a {
 ul.first_line {
   padding-left: 3em;
   padding-bottom: 1em;
+  padding-right: 3em;
 }
 
 ul.second_line {

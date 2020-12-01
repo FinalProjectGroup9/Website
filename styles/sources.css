@@ -58,6 +58,7 @@ ul.first_line {
 
 ul.second_line {
   padding-left: 1em;
+  padding-right: 1em;
 }
 li.articles {
   padding-bottom: 1em;
