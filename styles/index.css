@@ -129,7 +129,10 @@ navbar {
   padding-top: 5px;
   padding-bottom: 5px;
   text-decoration: none;
+  transition: width 2s, height 4s;
 }
+
+
 
 #arrow a:link, #arrow a:visited{
   text-decoration: none;
