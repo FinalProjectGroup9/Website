@@ -193,6 +193,11 @@ navbar {
 
 /* MOBILE - VIEW - ONLY */
 @media(max-width: 790px) {
+
+  .picture-noshow {
+    display: none;
+  }
+
   .icons {
     width: 96px;
     height: 96px;
