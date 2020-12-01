@@ -84,22 +84,21 @@ navbar {
   padding-left: 2em;
   padding-right: 2em;
   color: #000;
-  background: #f7f7f7;
 }
+
 
 #section-d .box:last-child {
   padding: 0em;
-}
-
-#section-d .box:first-child {
-  background: #f7f7f7;
 }
 
 /* SECTION FOUR */
 #section-dt .box {
   padding: 0;
   color: #000;
-  background: #f7f7f7;
+}
+
+#section-dt .box:first-child {
+  padding: 0;
 }
 
 #section-dt .box:last-child {
@@ -107,15 +106,9 @@ navbar {
   padding-right: 2em;
 }
 
-#section-dt .box:first-child {
-  background: #f7f7f7;
-  padding: 0;
-}
-
 /* SECTION FIVE */
 #section-e {
   padding: 1em 1em 1em;
-  background-color: #f7f7f7;
 }
 
 #section-e ul {
