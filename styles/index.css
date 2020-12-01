@@ -121,6 +121,27 @@ navbar {
   color: #333;
 }
 
+#submitYourConcern
+    {
+        background: url(../img/pngegg.png) no-repeat right;
+        padding-right: 40px;
+        color: #4b92db;
+        text-align: right;
+        font-family: Basis Grotesque Pro Mono;
+        font-size: 14px;
+    letter-spacing: .02em;
+    line-height: 23px;
+    font-weight: 700;
+    display: inline-block;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    color: #000;
+    }
+#submitYourConcern::before {
+    /*content: ">";*/
+    display:inline-block;
+}
+
 /* DESKTOP DEVICE (OVER 791px) */
 @media(min-width: 791px) {
   #devices-mobile {
